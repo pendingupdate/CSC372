@@ -3,5 +3,9 @@
     "java.format.settings.url": ".vscode/java-formatter.xml",
     "[java]": {
         "editor.insertSpaces": false
-    }
+    },
+    "java.project.sourcePaths": [
+        "CriticalThinking",
+        "Mod2Discussion/mod2discuss/src"
+    ]
 }
