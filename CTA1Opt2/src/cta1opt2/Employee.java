@@ -9,10 +9,13 @@ public class Employee {
 
 	// Default Constructor
 	Employee() {
-
+		this.firstName = "";
+		this.lastName = "";
+		this.employeeID = 0;
+		this.salary = 0;
 	}
 
-	// Constructor
+	// Constructor with employee fields and salary set to 0, per assignment instructions
 	Employee(String firstName, String lastName, int employeeID) {
 		this.firstName = firstName;
 		this.lastName = lastName;
