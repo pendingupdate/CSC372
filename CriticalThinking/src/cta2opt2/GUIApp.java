@@ -63,7 +63,7 @@ public class GUIApp {
 				
 				try {
 					// Parse age from user input
-					DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM-dd-yyyy");
+					DateTimeFormatter formatter = DateTimeFormatter.ofPattern("M-d-yyyy");
 					LocalDate birthDate = LocalDate.parse(birthDateInput, formatter);
 					LocalDate currentDate = LocalDate.now();
 
