@@ -1,3 +1,5 @@
+package mod2discuss.src;
+
 import javax.swing.*;
 import java.awt.*;
 
