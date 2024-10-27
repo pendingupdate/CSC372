@@ -28,6 +28,9 @@ public class GUIApp {
 
 		// Set gridlayout for userInputPanel's layout manager 
 		userInputPanel.setLayout(new GridLayout(3, 1));
+		
+		// ageOutputPanel contains age output display
+		JPanel ageOutputPanel = new JPanel();
 
 		// Label and TextField for birthdate input
 		JLabel birthDateInputLabel = new JLabel("Enter your birth date (MM-DD-YYYY):");
@@ -40,14 +43,17 @@ public class GUIApp {
 		// ageOutputLabel will display the calculated age
 		JLabel ageOutputLabel = new JLabel("Your age will appear here.", SwingConstants.CENTER);
 
-		// Add input components to the panel
+		// Add input components to the user input panel
 		userInputPanel.add(birthDateInputLabel);
 		userInputPanel.add(birthDateInputField);
 		userInputPanel.add(calculateButton);
 
-		// Add panel and age output label to the frame
+		// Add output components to age output panel
+		ageOutputPanel.add(ageOutputLabel);
+
+		// Add panels to the frame
 		ageFrame.add(userInputPanel, BorderLayout.CENTER);
-		ageFrame.add(ageOutputLabel, BorderLayout.SOUTH);
+		ageFrame.add(ageOutputPanel, BorderLayout.SOUTH);
 
 		// ActionListener for calculateButton
 		calculateButton.addActionListener(new ActionListener() {
