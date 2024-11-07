@@ -1,4 +1,4 @@
-package org.example.cta3opt1;
+package src.cta3opt1;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
