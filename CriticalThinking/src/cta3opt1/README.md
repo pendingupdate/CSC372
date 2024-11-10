@@ -1,6 +1,6 @@
 # CSC372: Computer Programming II
 
-## Module 1 - Option 1: Creating a User Interface I
+## Module 3 - Option 1: Creating a User Interface I
 
 Create a user interface that has a top bar that includes a menu. The menu should have four items.
 
