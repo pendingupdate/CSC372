@@ -72,7 +72,11 @@ public class MainApplication extends Application {
 
         //  When the user selects the fourth menu option then the program exits.
         MenuItem option4 = new MenuItem("Option 4: Exit Program");
-        option4.setOnAction(event -> primaryStage.close());
+        option4.setOnAction(event -> {
+            LocalDateTime exitTime = LocalDateTime.now();
+            System.out.println("Program exited as of " + exitTime.format(formatter) + ".");
+            primaryStage.close();
+        });
 
         // Menubutton contains all options
         MenuButton menuButton = new MenuButton("Options", null, option1, option2, option3, option4);
@@ -82,7 +86,7 @@ public class MainApplication extends Application {
         borderPane.setBottom(textBox);
 
         // Add borderPane to scene and set dimensions of display
-        Scene scene = new Scene(borderPane, 300, 300);
+        Scene scene = new Scene(borderPane, 250, 150);
 
         // Add scene to primary stage
         primaryStage.setScene(scene);
