@@ -5,6 +5,6 @@ module com.example.demo {
     requires org.controlsfx.controls;
     requires org.kordamp.bootstrapfx.core;
 
-    opens com.example.demo1 to javafx.fxml;
-    exports com.example.demo1;
+    opens com.example.cta3opt1 to javafx.fxml;
+    exports com.example.cta3opt1;
 }
