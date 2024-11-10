@@ -34,12 +34,13 @@ public class MainApplication extends Application {
         TextField textBox = new TextField("Text Box");
 
         // Get date and time and set format
-        LocalDateTime localDateTime = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy h:m");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MMMM d, yyyy h:mm a");
 
         // Display formatted date and time on click
-        option1.setOnAction(event -> textBox.setText(localDateTime.format(formatter)));
-
+        option1.setOnAction(event -> {
+            LocalDateTime localDateTime = LocalDateTime.now();
+            textBox.setText(localDateTime.format(formatter));
+        });
         //  When the user selects the second menu option, then the text box contents should be written to a text file named "log.txt."
         MenuItem option2 = new MenuItem("Option 2: Write text to file");
 
