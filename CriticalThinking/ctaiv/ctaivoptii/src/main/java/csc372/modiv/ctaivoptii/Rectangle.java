@@ -1,28 +1,29 @@
 package csc372.modiv.ctaivoptii;
 
 public class Rectangle extends Shape {
+    // Attributes
     private double width;
     private double length;
 
-    // Parameterized constructor to initialize width and length
+    // Constructor initializes width and length
     public Rectangle(double width, double length) {
         this.width = width;
         this.length = length;
     }
 
-    // Method to calculate area
+    // Calculate area
     @Override
     public double area() {
         return width * length;
     }
 
-    // Method to calculate perimeter
+    // Calculate perimeter
     @Override
     public double perimeter() {
         return 2 * (width + length);
     }
 
-    // toString method to print area and perimeter
+    // toString method prints out the area and perimeter
     @Override
     public String toString() {
         return "Rectangle [Area: " + area() + ", Perimeter: " + perimeter() + "]";
