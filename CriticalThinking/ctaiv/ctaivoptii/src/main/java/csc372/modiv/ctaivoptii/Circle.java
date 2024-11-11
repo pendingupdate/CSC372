@@ -2,7 +2,7 @@ package csc372.modiv.ctaivoptii;
 
 public class Circle extends Shape {
     // Attribute
-    private double radius;
+    private final double radius;
 
     // Constructor initializes radius
     public Circle(double radius) {

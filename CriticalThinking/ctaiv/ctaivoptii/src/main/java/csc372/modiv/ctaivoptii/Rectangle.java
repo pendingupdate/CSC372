@@ -2,8 +2,8 @@ package csc372.modiv.ctaivoptii;
 
 public class Rectangle extends Shape {
     // Attributes
-    private double width;
-    private double length;
+    private final double width;
+    private final double length;
 
     // Constructor initializes width and length
     public Rectangle(double width, double length) {

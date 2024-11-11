@@ -2,9 +2,9 @@ package csc372.modiv.ctaivoptii;
 
 public class Triangle extends Shape {
     // Attributes
-    private double side1;
-    private double side2;
-    private double side3;
+    private final double side1;
+    private final double side2;
+    private final double side3;
 
     // Constructor initializes side lengths
     public Triangle(double side1, double side2, double side3) {
