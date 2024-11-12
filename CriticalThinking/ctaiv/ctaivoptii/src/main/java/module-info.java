@@ -1,4 +1,4 @@
-module csc372.modiv.ctaivoptii {
+module progii.modiv.ctaivoptii {
     requires javafx.controls;
     requires javafx.fxml;
 
@@ -7,6 +7,6 @@ module csc372.modiv.ctaivoptii {
     requires org.kordamp.bootstrapfx.core;
     requires com.almasb.fxgl.all;
 
-    opens csc372.modiv.ctaivoptii to javafx.fxml;
-    exports csc372.modiv.ctaivoptii;
+    opens progii.modiv.ctaivoptii to javafx.fxml;
+    exports progii.modiv.ctaivoptii;
 }

@@ -1,4 +1,4 @@
-package csc372.modiv.ctaivoptii;
+package progii.modiv.ctaivoptii;
 
 public class Rectangle extends Shape {
     // Attributes
