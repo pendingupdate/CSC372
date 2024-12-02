@@ -1,3 +1,4 @@
 .metadata/.lock
 .metadata/.log
 .idea/*
+/.metadata/

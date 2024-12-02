@@ -66,6 +66,4 @@ public class Student {
 	        list.set(i, temp);
 	    }
 	}
-
-
 }
