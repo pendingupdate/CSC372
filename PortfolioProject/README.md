@@ -2,17 +2,17 @@
 
 ## Module 8: Portfolio Project - Option #1: Lessons Learned and Final Program
 
-** Milestones **
+**Milestones**
 
 Milestone 1 (due at the end of Week 4): Java source code (with corrections as required) for programs created in Modules 1-3.
 
 Milestone 2 (due at the end of Week 7): Java source code (with corrections as required) for programs created in Modules 5-6.
 
-** Final Portfolio Project **
+**Final Portfolio Project**
 
 In Week 8, the components you must complete for your Portfolio Project are the Lessons Learned Reflection and the Final Program. Carefully review the requirements below.
 
-** Lessons Learned Reflection **
+**Lessons Learned Reflection**
 
 Write a summary outlining the lessons you have learned in this programming course. Reflect on how these lessons can be applied to effective coding.
 
@@ -22,7 +22,7 @@ This essay portion of your Portfolio must:
 - Be formatted according to APA guidelines in the CSU Global Writing CenterLinks to an external site.
 - Include at least three outside references from the course readings, formatted according to APA requirements.
 
-** Final Program **
+**Final Program**
 
 Write a Java program that incorporates a loop that prompts the user for student data. Student data are private fields in a student class including:
 
